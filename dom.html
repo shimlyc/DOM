@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="dom.css">
+</head>
+<body>
+    
+<div class="div1">
+    <div>
+
+<h1 class="hdg">DOM Manipulation</h1>
+
+<div>
+<button id="btn">change paragraph content</button>
+</div>
+
+<p id="paragraph">Lorem ipsum, dolor sit amet consectetur adipisicing elit.<br>
+     Nam minus quasi qui autem nemo, omnis animi ducimus aliquid at quod exercitationem<br> excepturi rerum perferendis odio sed delectus earum, deserunt nesciunt.</p>
+
+</div>
+</div>
+
+<script>
+
+document.getElementById("btn")
+console.log(document.getElementById("btn"))
+let button=document.getElementById("btn");
+
+document.getElementById("paragraph")
+console.log(document.getElementById("paragraph"))
+let paragraph=document.getElementById("paragraph");
+
+button.addEventListener("click",function () {
+            paragraph.innerHTML = 'You have clicked'
+
+})
+
+</script>
+
+
+</body>
+</html>

@@ -1,0 +1,35 @@
+*{
+    padding: 0px;
+    margin:0px;
+
+}
+
+
+.div1{
+background-color: rgb(39, 10, 10);
+height: 100vh;
+display: flex;
+align-items: center;
+justify-content: center;
+text-align: center;
+color: white;
+
+}
+button{
+    padding: 12px;
+    background-color: brown;
+    color: white;
+    font-size: 20px;
+    border: none;
+    border: 3px dashed white;
+    margin-top: 20px;
+}
+.hdg{
+
+    font-size: 50px;
+}
+p{
+    font-size: 20px;
+    margin-top: 20px;
+  
+}
